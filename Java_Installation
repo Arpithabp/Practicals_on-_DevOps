@@ -1,0 +1,12 @@
+Installation Commands for Java on Aws ubuntu
+sudo apt update
+sudo apt install openjdk-11-jdk
+java -version
+
+To set a Java Path
+which java
+export JAVA_HOME=/usr/bin/java
+PATH=$JAVA_HOME/bin:$PATH
+echo $JAVA_HOME
+echo $PATH
+source ~/.bashr
